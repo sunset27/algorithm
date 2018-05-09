@@ -2,7 +2,9 @@ package sort;
 
 /**
  * Created by QIAOYIFAN on 2018/5/9.
+ * 冒泡排序
  */
+
 public class BubbleSort {
     public void bubble (Comparable[] a){
         for (int i = 0; i <a.length ; i++) {
