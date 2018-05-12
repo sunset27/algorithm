@@ -22,13 +22,10 @@ public class SelectSort {
             for(int j=i+1;j<hi;j++){
                 if(Utils.less(a[j],a[min]))
                     min = j;
-                //
+
 
             }
             Utils.exch(a,i,min);
         }
     }
 }
-
-//
-//
