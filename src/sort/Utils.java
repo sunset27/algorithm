@@ -15,6 +15,16 @@ public class Utils {
     public static boolean less(Comparable i,Comparable j){
         return i.compareTo(j)<0;
     }
+    public static boolean isSort(Comparable[] a){
+        for(int i=0;i<a.length-1;i++){
+            if(less(a[i+1],a[i]))
+                return false;
+
+        }
+        return  true;
+
+    }
+
     public static Integer[] getIntArray(int arrayLength,int arrayNumRange){
         int n = (int)((Math.random()+1)*arrayLength);
         Integer[] arrays =new Integer[n];
