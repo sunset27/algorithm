@@ -10,6 +10,7 @@ public class QuickSort {
 //            new InsertSort().sort(a,lo,hi);
 ////            return;
 //        }
+
         int v = partition(a,lo,hi);
         sort(a,lo,v-1);
         sort(a,v+1,hi);
