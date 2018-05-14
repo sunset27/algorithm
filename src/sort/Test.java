@@ -17,7 +17,8 @@ public class Test {
         //new BubbleSort().bubble(a);
 //        new MergeUpToLow().sort(a);
         //new MergeLowToUp().sort(a);
-        new QuickSort().sort(a);
+//        new QuickSort().sort(a);
+        new HeapSort().sort(a);
         for(Comparable i : a){
             System.out.print(i+" ");
 
